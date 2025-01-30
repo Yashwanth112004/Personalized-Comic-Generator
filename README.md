@@ -9,12 +9,14 @@ The **AI Comic Generator** is an educational tool that converts text-based input
 - **Automated Comic Creation** – Uses Gemini API to generate dialogues, descriptions, and image prompts.
 - **Engaging Visuals** – AI-generated content is structured in a comic format.
 - **User-Friendly Interface** – Simple input method for seamless comic generation.
+- **DataBase Authentication** - Login/Register is authenticated and user info is saved in Firestore Database
 
 ## 🏗️ Tech Stack
 - **Backend**: Python (Flask/FastAPI)
 - **API**: Google Gemini API
 - **Frontend**: Next.js
 - **Storage**: Local file system / Cloud storage
+- **Database**: FireBase
 
 ## 📦 Installation
 1. Clone the repository:
