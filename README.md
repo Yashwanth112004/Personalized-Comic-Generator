@@ -3,6 +3,8 @@
 ## 📌 Overview
 The **AI Comic Generator** is an educational tool that converts text-based inputs (like a chapter or concept) into engaging comics using **Google's Gemini API**. It enhances learning by transforming text into visually appealing narratives, making education interactive and fun.
 
+**Note**: THe Project is running locally. I have Tries Deploying Vercel, its getting some errors.
+
 ## 🚀 Features
 - **AI-Powered Storytelling** – Generates a story-driven comic from text inputs.
 - **Customizable Inputs** – Users can enter any topic or educational content.
@@ -10,12 +12,14 @@ The **AI Comic Generator** is an educational tool that converts text-based input
 - **Engaging Visuals** – AI-generated content is structured in a comic format.
 - **User-Friendly Interface** – Simple input method for seamless comic generation.
 - **DataBase Authentication** - Login/Register is authenticated and user info is saved in Firestore Database
+- **Retrieved Augmented Generation** - The Comic can be still understandable by questioning it via RAG, I have used Tinyllama from Hugging Face.
+- **Image Generation** - I have used Stable Diffusion-v1-4 for image generation (Still need to Integrate).
 
 ## 🏗️ Tech Stack
 - **Backend**: Python (Flask/FastAPI)
 - **API**: Google Gemini API
 - **Frontend**: Next.js
-- **Storage**: Local file system / Cloud storage
+- **Storage**: Local file system
 - **Database**: FireBase
 
 ## 📦 Installation
@@ -59,12 +63,11 @@ print(response.json())
 - Integrate **AI-generated images** for a complete visual experience.
 - Add **multi-language support** using NLLB.
 - Implement a **drag-and-drop UI** for user customization.
+- Implement Voice Over with **Genesis Robotics**.
 
 ## 🤝 Contribution
 Feel free to fork, submit issues, or contribute improvements!
 
-## 📜 License
-This project is **open-source** under the **MIT License**.
 
 ---
 ### 🔗 Connect with Me
