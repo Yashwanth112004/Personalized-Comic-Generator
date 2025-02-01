@@ -5,6 +5,10 @@ The **AI Comic Generator** is an educational tool that converts text-based input
 
 **Note**: THe Project is running locally. I have Tries Deploying Vercel, its getting some errors.
 
+**Credientials to login Directly**: 
+Email: puligillayashwanth111@gmail.com
+Password : 1234567890
+
 ## 🚀 Features
 - **AI-Powered Storytelling** – Generates a story-driven comic from text inputs.
 - **Customizable Inputs** – Users can enter any topic or educational content.
